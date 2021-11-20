@@ -1,0 +1,283 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family : 'Nunito' , sans-serif;
+}
+
+
+.container{
+    flex: 1;
+    background-color: #E5E5E5;
+}
+
+.html_container , .css_container{
+    border: 2px  #CBD3DE solid;
+    flex: 1;
+    padding: 40px;
+    margin: 10px;
+    background-color: white;
+
+
+}
+
+
+.content_container{
+    display: flex;
+    margin: 50px;
+}
+
+.thumbnail{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.tags_container{
+    border: 2px #CBD3DE solid;
+    margin: 50px;
+    background-color:  #EAEEF4;
+    padding: 24px 57px 48px 30px;
+
+
+}
+
+.tags_container_blocks{
+    display: flex;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tags_block_1, .tags_block_2, .tags_block_3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-underline-offset: 5px;
+
+}
+
+.tag_audio{
+    color: #325689;
+    font-size: 44px;
+
+
+}
+
+.tag_calc{
+    color: #10376E;
+    font-size: 40px;
+
+
+
+}
+
+.tag_forum{
+    color: #1E3351;
+    font-size: 42px;
+
+}
+
+.tag_settings{
+    color: #3E6499;
+    font-size: 37px;
+
+
+}
+
+.tag_video{
+    color: #1E3351;
+    font-size: 34px;
+
+
+
+}
+
+.tag_table{
+    color: #0B1F3A;
+    font-size: 70px;
+}
+
+
+
+
+/*header*/
+
+header {
+    background-color: #10376E;
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 180px;
+
+}
+
+.logo-container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_button{
+    height: 81px;
+    width: 132px;
+    background-color: #1389E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    margin-left: 10px;
+}
+
+
+.logo_title{
+    align-items: center;
+    display: flex;
+    margin-left: 27px;
+}
+
+
+.title{
+    width: 236px;
+    height: 66px;
+}
+
+
+.clocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+}
+
+
+.thumbnail1{
+    height: 33px;
+    width: 33px;
+}
+
+.clock_time{
+    font-size: 35px;
+}
+
+
+.username_button{
+    background-color:  #0B264D;
+    height: 80px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.thumbnail2{
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+.user_name{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    height: 166px;
+    background-color: #E1E8F1;
+}
+
+.logo-container1{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.logo_button1{
+    height: 69px;
+    width: 112px;
+    background-color: #1389E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.logo_title1{
+    align-items: center;
+    display: flex;
+    margin-left: 27px;
+}
+
+
+.title1{
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+
+.button_ok_submit{
+
+}
+
+.button_ok{
+    background-color: #0B1F3A;
+    height: 60px;
+    width: 240px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agreement{
+    margin-top: 46px;
+    margin-left: 70px;
+    text-decoration: underline;
+}
+
+
+.year{
+    text-decoration: underline;
+}
