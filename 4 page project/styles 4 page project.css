@@ -1,0 +1,507 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family : 'Nunito' , sans-serif;
+}
+
+
+.container{
+    background-color: #E5E5E5;
+    height: 1096px;
+}
+
+/*.html_container , .css_container{*/
+/*    border: 2px  #CBD3DE solid;*/
+/*    flex: 1;*/
+/*    padding: 40px;*/
+/*    margin: 10px;*/
+/*    background-color: white;*/
+
+
+
+.css_container{
+    position: absolute;
+    width: 1017px;
+    height: 1096px;
+    right: 0px;
+    top: 128px;
+    background-color: #E5E5E5;
+}
+
+.html_container{
+    position: absolute;
+    width: 646px;
+    height: 1096px;
+    left: 0px;
+    top: 128px;
+    background-color: #1E3351;
+}
+
+
+
+/*MAIN*/
+
+.user_add_photo_photo{
+    height: 200px;
+    width: 204px;
+    position: absolute;
+    left: 330px;
+    top: 130px;
+}
+
+.user_change_photo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 415px;
+    top: 190px;
+}
+
+
+.users_settings{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    position: absolute;
+    width: 430px;
+    left: 60px;
+    top: 50px;
+}
+
+.user_change_photo_text{
+    height: 50px;
+    width: 84px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 390px;
+    top: 220px;
+}
+
+.date_12_1{
+    width: 13px;
+    height: 7px;
+}
+
+.date_jun_1{
+    width: 13px;
+    height: 7px;
+}
+
+
+.date_1997_1{
+    width: 13px;
+    height: 7px;
+}
+
+
+.name{
+    background-color: white;
+    height: 60px;
+    width: 375px;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid lightgray;
+}
+
+.Pavel{
+    margin-left: 15px;
+}
+
+
+.username{
+    position: absolute;
+    left: 60px;
+    top: 120px;
+    color:  #041122;
+}
+
+.bd_user_date{
+    background-color: white;
+    border: 1px solid lightgray;
+    position: absolute;
+    width: 111px;
+    height: 60px;
+    left: 465px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.decision_area{
+    height: 7px;
+    width: 13px;
+    margin-left: 30px;
+}
+
+.decision_area_1{
+    height: 7px;
+    width: 13px;
+    margin-left: 15px;
+}
+
+.decision_area_2{
+    height: 7px;
+    width: 13px;
+    margin-left: 15px;
+}
+
+
+.bd_user_date_1{
+    background-color: white;
+    border: 1px solid lightgray;
+    position: absolute;
+    width: 111px;
+    height: 60px;
+    left: 605px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bd_user_date_2{
+    background-color: white;
+    border: 1px solid lightgray;
+    position: absolute;
+    width: 111px;
+    height: 60px;
+    left: 745px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.date_of_bd{
+    position: absolute;
+    width: 134px;
+    height: 25px;
+    left: 465px;
+    top: 120px;
+}
+
+.user_login_button{
+    background-color: white;
+    height: 60px;
+    width: 375px;
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid lightgray;
+
+}
+
+
+.user_login_user{
+    margin-left: 15px;
+}
+
+.user_login_page3{
+    position: absolute;
+    left: 60px;
+    top: 270px;
+    color:  #041122;
+}
+
+.user_email_button{
+    background-color: white;
+    height: 60px;
+    width: 375px;
+    position: absolute;
+    left: 465px;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid lightgray;
+}
+
+.user_email_text{
+    margin-left: 15px;
+}
+
+
+.user_email{
+    position: absolute;
+    width: 134px;
+    height: 25px;
+    left: 465px;
+    top: 270px;
+}
+
+.password_again{
+    position: absolute;
+    left: 465px;
+    top: 510px;
+}
+
+.user_password_change{
+    font-size: 25px;
+    position: absolute;
+    left: 60px;
+    top: 450px;
+    color:  #041122;
+
+}
+
+.new_password{
+    position: absolute;
+    left: 60px;
+    top: 510px;
+}
+
+
+.no_look_picture{
+    height: 20px;
+    width: 25px;
+    margin-left: 265px;
+}
+
+.new_password_area{
+    background-color: white;
+    height: 60px;
+    width: 375px;
+    position: absolute;
+    left: 60px;
+    top: 550px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.new_user_password{
+    margin-left: 15px;
+}
+
+.password_again_area{
+    background-color: white;
+    height: 60px;
+    width: 375px;
+    position: absolute;
+    left: 465px;
+    top: 550px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid lightgray;
+}
+
+
+.password_again_text{
+    margin-left: 15px;
+}
+
+
+.look_picture{
+    height: 17px;
+    width: 25px;
+    margin-left: 275px;
+}
+
+.circle {
+    background: #E61313;
+    border: 0.1875em solid  #E61313;
+    border-radius: 50%;
+    height: 20px;
+    width:20px;
+    position: absolute;
+    left: 480px;
+    top: 618px;
+}
+
+
+
+
+.error_picture{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 488px;
+    top: 626px;
+}
+
+.error_text{
+    position: absolute;
+    left: 510px;
+    top: 622px;
+    font-size: 13px;
+    color: red;
+}
+
+
+
+
+.save_changes{
+    background: #1389E6;
+    height: 60px;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    top: 950px;
+}
+
+.save_changes_text{
+    color: white;
+    font-size: 22px;
+}
+
+/*header*/
+
+header {
+    background-color: #10376E;
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 180px;
+    left: 0;
+
+
+
+}
+
+.logo-container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_button{
+    height: 81px;
+    width: 132px;
+    background-color: #1389E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.logo_title{
+    align-items: center;
+    display: flex;
+    margin-left: 27px;
+    font-size: 20px;
+}
+
+
+.title{
+    width: 236px;
+    height: 66px;
+}
+
+
+.menu_conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.menu_button{
+    text-indent: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.menu_button_1{
+    text-indent: 100px;
+    font-size: 20px;
+    text-decoration: 5px underline #37ABFF ;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+footer{
+    height: 166px;
+    background-color: #E1E8F1;
+
+}
+
+.logo-container1{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.logo_button1{
+    height: 69px;
+    width: 112px;
+    background-color: #1389E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.logo_title1{
+    align-items: center;
+    display: flex;
+    margin-left: 27px;
+}
+
+
+.title1{
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+
+.button_ok_submit{
+
+}
+
+.button_ok{
+    background-color: #0B1F3A;
+    height: 60px;
+    width: 240px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agreement{
+    margin-top: 46px;
+    margin-left: 70px;
+    text-decoration: underline;
+}
+
+
+.year{
+    text-decoration: underline;
+}
